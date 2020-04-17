@@ -6,6 +6,10 @@ target 'YFMBottomPayView' do
   # use_frameworks!
 
   # Pods for YFMBottomPayView
+  
+  
+  
+  
 pod 'STPopup'
 pod 'Masonry'
 
