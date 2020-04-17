@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - STPopup (1.8.3)
+
+DEPENDENCIES:
+  - Masonry
+  - STPopup
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - STPopup
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  STPopup: da1167250a01584af7bcccb898653185f223ec46
+
+PODFILE CHECKSUM: a64206a06df0f50cc5d95ec0daedcc77b7b1fa64
+
+COCOAPODS: 1.5.0

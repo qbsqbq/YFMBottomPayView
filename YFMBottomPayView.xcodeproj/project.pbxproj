@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D4284D6BF164B7083257DE0 /* libPods-YFMBottomPayView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA14892C46A4D895ADE4C72 /* libPods-YFMBottomPayView.a */; };
 		B00071CD2119367400F7C546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B00071CC2119367400F7C546 /* AppDelegate.m */; };
 		B00071D02119367400F7C546 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B00071CF2119367400F7C546 /* ViewController.m */; };
 		B00071D32119367400F7C546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00071D12119367400F7C546 /* Main.storyboard */; };
 		B00071D52119367500F7C546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00071D42119367500F7C546 /* Assets.xcassets */; };
 		B00071D82119367500F7C546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00071D62119367500F7C546 /* LaunchScreen.storyboard */; };
 		B00071DB2119367500F7C546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B00071DA2119367500F7C546 /* main.m */; };
+		B00071E4211936E100F7C546 /* YFMPaymentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B00071E3211936E100F7C546 /* YFMPaymentView.m */; };
+		B00071E7211937E800F7C546 /* PayTopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B00071E5211937E800F7C546 /* PayTopTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		329B7DDDC7E1B57E2B1A3965 /* Pods-YFMBottomPayView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFMBottomPayView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YFMBottomPayView/Pods-YFMBottomPayView.debug.xcconfig"; sourceTree = "<group>"; };
+		8C0AA3BBA94C2815255FB0FA /* Pods-YFMBottomPayView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFMBottomPayView.release.xcconfig"; path = "Pods/Target Support Files/Pods-YFMBottomPayView/Pods-YFMBottomPayView.release.xcconfig"; sourceTree = "<group>"; };
 		B00071C82119367400F7C546 /* YFMBottomPayView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFMBottomPayView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00071CB2119367400F7C546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B00071CC2119367400F7C546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,11 @@
 		B00071D72119367500F7C546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00071D92119367500F7C546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B00071DA2119367500F7C546 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B00071E2211936E100F7C546 /* YFMPaymentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFMPaymentView.h; sourceTree = "<group>"; };
+		B00071E3211936E100F7C546 /* YFMPaymentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFMPaymentView.m; sourceTree = "<group>"; };
+		B00071E5211937E800F7C546 /* PayTopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayTopTableViewCell.m; sourceTree = "<group>"; };
+		B00071E6211937E800F7C546 /* PayTopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayTopTableViewCell.h; sourceTree = "<group>"; };
+		CBA14892C46A4D895ADE4C72 /* libPods-YFMBottomPayView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YFMBottomPayView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4284D6BF164B7083257DE0 /* libPods-YFMBottomPayView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A32D95CBE614EFD559A3ABB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBA14892C46A4D895ADE4C72 /* libPods-YFMBottomPayView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B00071BF2119367400F7C546 = {
 			isa = PBXGroup;
 			children = (
 				B00071CA2119367400F7C546 /* YFMBottomPayView */,
 				B00071C92119367400F7C546 /* Products */,
+				EBFAA214634B751EF59A6B42 /* Pods */,
+				A32D95CBE614EFD559A3ABB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +79,7 @@
 		B00071CA2119367400F7C546 /* YFMBottomPayView */ = {
 			isa = PBXGroup;
 			children = (
+				B00071E12119368C00F7C546 /* PayView */,
 				B00071CB2119367400F7C546 /* AppDelegate.h */,
 				B00071CC2119367400F7C546 /* AppDelegate.m */,
 				B00071CE2119367400F7C546 /* ViewController.h */,
@@ -71,6 +93,26 @@
 			path = YFMBottomPayView;
 			sourceTree = "<group>";
 		};
+		B00071E12119368C00F7C546 /* PayView */ = {
+			isa = PBXGroup;
+			children = (
+				B00071E2211936E100F7C546 /* YFMPaymentView.h */,
+				B00071E3211936E100F7C546 /* YFMPaymentView.m */,
+				B00071E6211937E800F7C546 /* PayTopTableViewCell.h */,
+				B00071E5211937E800F7C546 /* PayTopTableViewCell.m */,
+			);
+			path = PayView;
+			sourceTree = "<group>";
+		};
+		EBFAA214634B751EF59A6B42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				329B7DDDC7E1B57E2B1A3965 /* Pods-YFMBottomPayView.debug.xcconfig */,
+				8C0AA3BBA94C2815255FB0FA /* Pods-YFMBottomPayView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +120,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B00071DE2119367500F7C546 /* Build configuration list for PBXNativeTarget "YFMBottomPayView" */;
 			buildPhases = (
+				E00BB8DB039602752788D872 /* [CP] Check Pods Manifest.lock */,
 				B00071C42119367400F7C546 /* Sources */,
 				B00071C52119367400F7C546 /* Frameworks */,
 				B00071C62119367400F7C546 /* Resources */,
@@ -136,14 +179,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E00BB8DB039602752788D872 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YFMBottomPayView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B00071C42119367400F7C546 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00071E4211936E100F7C546 /* YFMPaymentView.m in Sources */,
 				B00071D02119367400F7C546 /* ViewController.m in Sources */,
 				B00071DB2119367500F7C546 /* main.m in Sources */,
 				B00071CD2119367400F7C546 /* AppDelegate.m in Sources */,
+				B00071E7211937E800F7C546 /* PayTopTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +347,12 @@
 		};
 		B00071DF2119367500F7C546 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329B7DDDC7E1B57E2B1A3965 /* Pods-YFMBottomPayView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YFMBottomPayView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +365,12 @@
 		};
 		B00071E02119367500F7C546 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0AA3BBA94C2815255FB0FA /* Pods-YFMBottomPayView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YFMBottomPayView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
